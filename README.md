@@ -1,4 +1,3 @@
 # Telecom-billing
-A C project on telecom billing 
-im a doctor
+A C project on telecom billing system
 
