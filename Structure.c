@@ -10,7 +10,8 @@ struct customer {
     float totalBill;
 };
 //array to store customer data.
-struct customer customers[100] ;
+struct customer 
+customers[100] ;
 
 //global variable for customers
 
