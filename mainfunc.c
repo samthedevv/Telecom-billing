@@ -1,6 +1,6 @@
 int main (){
     int choice;
-    char phoneNumber;
+    char phoneNumber[15];
 
     while(1){
         displayMenu();
