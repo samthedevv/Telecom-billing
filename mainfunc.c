@@ -28,7 +28,7 @@ int main (){
                 break;
         case 4:
                 printf("\nEnter phone number to view payment: ");
-                scanf("14%s", phoneNumber);
+                scanf("%14s", phoneNumber);
                 clearInputBuffer();
                 viewpayent(phoneNumber);
                 break;
