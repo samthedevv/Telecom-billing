@@ -6,11 +6,11 @@ void addRecord()
 		return;
 	}
 	printf("\nEnter name: ");
-        if (fgets(customers[customerCount].name, sizeof(customers[customerCount].name),stdin == NULL){
+        if (fgets(customers[customerCount].name, sizeof(customers[customerCount].name),stdin)== NULL){
 			printf("Error reading name.\n");
 			return;
 		}
-	customers[customerCount].name[strcspn(customers[customerCount].name,"\n"]='\0';
+	customers[customerCount].name[strcspn(customers[customerCount].name,"\n")]='\0';
 	
 	printf("Enter phone number: "); 
 	scanf("%14s", customers[customerCount].phoneNumber); 
@@ -21,7 +21,7 @@ void addRecord()
 	}
 	printf("Enter usage (in minutes): "); 
 		if(scanf("%f", &customers[customerCount].usage) !=1 || customers[customerCount].usage < 0){
-			printf("Invalid usage amount . MUst be a positive number.\n);
+			printf("Invalid usage amount . MUst be a positive number.\n");
 			clearInputBuffer();
 			return;
 		}

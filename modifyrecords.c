@@ -5,7 +5,7 @@ void modifyRecord(const char *phoneNumber)
     {
         if (strcmp(customer[i].phoneNumber, phoneNumber) == 0)
         {       
-        printf("\nEnter new usage (in minutes) for %s:", custemers[i].name);
+        printf("\nEnter new usage (in minutes) for %s:", customers[i].name);
         if (scanf("%f", &customers[i].usage)!= 1 ||customers[i].usage<0){
             printf("Invalid usage amount.\n");
             clearInputBuffer();
