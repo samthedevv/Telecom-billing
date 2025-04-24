@@ -6,7 +6,7 @@ int main (){
         displayMenu();
         printf("Enter your choice: ");
         if(scanf("%d",&choice) != 1){
-            printf("Invalid input . Please enter a number .\n);
+            printf("Invalid input . Please enter a number .\n");
             clearInputBuffer();
             continue;
         }
